@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC0AD132B31CCCF00663307 /* Github Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0AD122B31CCCF00663307 /* Github Exercise.swift */; };
 		ACD6B83F2B2FE720005AD7FE /* JohnGallugherCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6B83E2B2FE720005AD7FE /* JohnGallugherCourseApp.swift */; };
 		ACD6B8412B2FE720005AD7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6B8402B2FE720005AD7FE /* ContentView.swift */; };
 		ACD6B8432B2FE724005AD7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD6B8422B2FE724005AD7FE /* Assets.xcassets */; };
 		ACD6B8462B2FE724005AD7FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD6B8452B2FE724005AD7FE /* Preview Assets.xcassets */; };
+		ACD6B84D2B2FE770005AD7FE /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6B84C2B2FE770005AD7FE /* Project1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACC0AD122B31CCCF00663307 /* Github Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Github Exercise.swift"; sourceTree = "<group>"; };
 		ACD6B83B2B2FE720005AD7FE /* JohnGallugherCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnGallugherCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD6B83E2B2FE720005AD7FE /* JohnGallugherCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnGallugherCourseApp.swift; sourceTree = "<group>"; };
 		ACD6B8402B2FE720005AD7FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACD6B8422B2FE724005AD7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD6B8452B2FE724005AD7FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD6B84C2B2FE770005AD7FE /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				ACD6B83E2B2FE720005AD7FE /* JohnGallugherCourseApp.swift */,
 				ACD6B8402B2FE720005AD7FE /* ContentView.swift */,
+				ACD6B84C2B2FE770005AD7FE /* Project1.swift */,
 				ACD6B8422B2FE724005AD7FE /* Assets.xcassets */,
 				ACD6B8442B2FE724005AD7FE /* Preview Content */,
+				ACC0AD122B31CCCF00663307 /* Github Exercise.swift */,
 			);
 			path = JohnGallugherCourse;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD6B84D2B2FE770005AD7FE /* Project1.swift in Sources */,
 				ACD6B8412B2FE720005AD7FE /* ContentView.swift in Sources */,
 				ACD6B83F2B2FE720005AD7FE /* JohnGallugherCourseApp.swift in Sources */,
+				ACC0AD132B31CCCF00663307 /* Github Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
