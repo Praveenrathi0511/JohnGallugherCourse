@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC8DAC142B36CEB00052A5A1 /* TwoWayBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8DAC132B36CEB00052A5A1 /* TwoWayBindings.swift */; };
 		ACC0AD132B31CCCF00663307 /* Github Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0AD122B31CCCF00663307 /* Github Exercise.swift */; };
 		ACD6B83F2B2FE720005AD7FE /* JohnGallugherCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6B83E2B2FE720005AD7FE /* JohnGallugherCourseApp.swift */; };
 		ACD6B8412B2FE720005AD7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6B8402B2FE720005AD7FE /* ContentView.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC74EA8D2B374DD7001B62E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC8DAC132B36CEB00052A5A1 /* TwoWayBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindings.swift; sourceTree = "<group>"; };
 		ACC0AD122B31CCCF00663307 /* Github Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Github Exercise.swift"; sourceTree = "<group>"; };
 		ACD6B83B2B2FE720005AD7FE /* JohnGallugherCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnGallugherCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD6B83E2B2FE720005AD7FE /* JohnGallugherCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnGallugherCourseApp.swift; sourceTree = "<group>"; };
@@ -55,9 +58,11 @@
 		ACD6B83D2B2FE720005AD7FE /* JohnGallugherCourse */ = {
 			isa = PBXGroup;
 			children = (
+				AC74EA8D2B374DD7001B62E9 /* Info.plist */,
 				ACD6B83E2B2FE720005AD7FE /* JohnGallugherCourseApp.swift */,
 				ACD6B8402B2FE720005AD7FE /* ContentView.swift */,
 				ACD6B84C2B2FE770005AD7FE /* Project1.swift */,
+				AC8DAC132B36CEB00052A5A1 /* TwoWayBindings.swift */,
 				ACD6B8422B2FE724005AD7FE /* Assets.xcassets */,
 				ACD6B8442B2FE724005AD7FE /* Preview Content */,
 				ACC0AD122B31CCCF00663307 /* Github Exercise.swift */,
@@ -145,6 +150,7 @@
 			files = (
 				ACD6B84D2B2FE770005AD7FE /* Project1.swift in Sources */,
 				ACD6B8412B2FE720005AD7FE /* ContentView.swift in Sources */,
+				AC8DAC142B36CEB00052A5A1 /* TwoWayBindings.swift in Sources */,
 				ACD6B83F2B2FE720005AD7FE /* JohnGallugherCourseApp.swift in Sources */,
 				ACC0AD132B31CCCF00663307 /* Github Exercise.swift in Sources */,
 			);
@@ -282,9 +288,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JohnGallugherCourse/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JohnGallugherCourse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,9 +318,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JohnGallugherCourse/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JohnGallugherCourse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
